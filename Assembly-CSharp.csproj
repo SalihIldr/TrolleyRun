@@ -56,29 +56,26 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\TrolleyTrain.cs" />
-    <Compile Include="Assets\Scripts\StickMan.cs" />
-    <Compile Include="Assets\Scripts\Wall.cs" />
-    <Compile Include="Assets\Scripts\Obstacle.cs" />
-    <Compile Include="Assets\Scripts\Turn.cs" />
-    <Compile Include="Assets\Scripts\TrolleyGenerator.cs" />
-    <Compile Include="Assets\Scripts\TrolleySegment.cs" />
-    <Compile Include="Assets\FlatKit\Scripts\UvScroller.cs" />
-    <Compile Include="Assets\Scripts\MoverTrolley.cs" />
-    <Compile Include="Assets\Scripts\PhysicsMovement.cs" />
-    <Compile Include="Assets\Scripts\TrolleyHead.cs" />
-    <Compile Include="Assets\Scripts\Rails.cs" />
-    <Compile Include="Assets\FlatKit\[Render Pipeline] Built-in\ImageEffects\Scripts\OutlineImageEffect.cs" />
-    <Compile Include="Assets\Scripts\StickmanSegment.cs" />
-    <Compile Include="Assets\FlatKit\[Render Pipeline] Built-in\ImageEffects\Scripts\FogImageEffect.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput.cs" />
-    <Compile Include="Assets\Scripts\Environment\Floor.cs" />
-    <Compile Include="Assets\Scripts\SurfaceSlider.cs" />
-    <Compile Include="Assets\Scripts\GameCamera.cs" />
-    <Compile Include="Assets\Scripts\Environment\WhiteMan.cs" />
-    <Compile Include="Assets\Scripts\Ramp.cs" />
-    <Compile Include="Assets\Scripts\Turnes.cs" />
+    <Compile Include="Assets\Scripts\Train\TrolleyTrain.cs" />
+    <Compile Include="Assets\Scripts\StickMan\StickMan.cs" />
+    <Compile Include="Assets\Scripts\Environment\Obstacle.cs" />
+    <Compile Include="Assets\Scripts\Environment\LongTurn.cs" />
     <Compile Include="Assets\Scripts\Environment\JampPlatform.cs" />
+    <Compile Include="Assets\Scripts\TrainParts\TrolleySegment.cs" />
+    <Compile Include="Assets\FlatKit\Scripts\UvScroller.cs" />
+    <Compile Include="Assets\Scripts\MoveTrolleyHead\MoverTrolley.cs" />
+    <Compile Include="Assets\Scripts\MoveTrolleyHead\PhysicsMovement.cs" />
+    <Compile Include="Assets\Scripts\TrainParts\TrolleyHead.cs" />
+    <Compile Include="Assets\Scripts\Environment\Rails.cs" />
+    <Compile Include="Assets\FlatKit\[Render Pipeline] Built-in\ImageEffects\Scripts\OutlineImageEffect.cs" />
+    <Compile Include="Assets\Scripts\StickMan\StickmanSegment.cs" />
+    <Compile Include="Assets\FlatKit\[Render Pipeline] Built-in\ImageEffects\Scripts\FogImageEffect.cs" />
+    <Compile Include="Assets\Scripts\PlayerInput\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Environment\Floor.cs" />
+    <Compile Include="Assets\Scripts\MoveTrolleyHead\SurfaceSlider.cs" />
+    <Compile Include="Assets\Scripts\GameCamera\GameCamera.cs" />
+    <Compile Include="Assets\Scripts\StickMan\WhiteStickMan.cs" />
+    <Compile Include="Assets\Scripts\Environment\Lift.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FlatKit\[Render Pipeline] Built-in\ImageEffects\Resources\OutlinePlus.shader" />
