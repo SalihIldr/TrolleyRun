@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class SurfaceSlider : MonoBehaviour
 {
-    [SerializeField] Rigidbody _rigidbody;
-    [SerializeField] TrolleyHead _trolleyHead;
-    [SerializeField] GameObject _dustTrails;
+    [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private TrolleyHead _trolleyHead;
+    [SerializeField] private GameObject _dustTrails;
 
     private Vector3 _normal;
     private bool _isFall = false;
